@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [Main Test Suite]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <test name="Grid chrome Test(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="grid.ParallelTestA">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- grid.ParallelTestA -->
+      <class name="grid.ParallelTestB">
+        <methods>
+          <include name="testSearchGoogle"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- grid.ParallelTestB -->
+    </classes>
+  </test> <!-- Grid chrome Test(failed) -->
+</suite> <!-- Failed suite [Main Test Suite] -->

@@ -1,0 +1,134 @@
+2017-03-25 23:01:15,554 [main] INFO config.ApplicationMapping - Singleton(): Initializing Instance
+2017-03-25 23:01:15,568 [main] INFO helper.Utility - Singleton(): Initializing Instance
+2017-03-25 23:01:15,569 [main] INFO filesystem.Directory - Directory(): Initializing Instance
+2017-03-25 23:01:15,573 [main] INFO filesystem.Excel - Excel(): Initializing Instance
+2017-03-25 23:01:15,649 [main] INFO helper.Utility - Command Execute: cmd /c start D:\Study\Java\HybridFramework\Scripts\KillBrowser.bat
+2017-03-25 23:01:15,650 [main] INFO filesystem.Directory - removing file or directory : TempFile
+2017-03-25 23:01:15,651 [main] INFO main.Main - false
+2017-03-25 23:01:15,954 [main] INFO filesystem.Excel - File. Path: D:\Automation Setup\Project\HybridFramework\TestResult\25-03-2017\TestResult_25_03_2017_11_01_15.xlsx
+2017-03-25 23:01:15,954 [main] WARN filesystem.Directory - Directory already exists ...
+2017-03-25 23:01:17,479 [main] INFO filesystem.Excel - Excel File Path Set: D:\Automation Setup\Project\HybridFramework\InputFile\ADMIN.xlsx
+2017-03-25 23:01:17,480 [main] INFO filesystem.Excel - Read Excel Sheet: ADMINOBJREPO
+2017-03-25 23:01:17,487 [main] INFO filesystem.Excel - Object Repository Successfully Created. No of Records: 26
+2017-03-25 23:01:17,877 [main] INFO main.Main - TC START: Admin Module ,Alias: TCBEGIN
+2017-03-25 23:01:17,970 [main] INFO main.Main - Skip This Row. Excute: N
+2017-03-25 23:01:17,971 [main] INFO main.Main - Step# Open OrangeHRM Web Application, Alias#  NOTHING Selector#  NOTHING ObjectType#  OPEN
+2017-03-25 23:01:17,971 [main] INFO base.OperationBuilder - Launching Google-Chrome Browser.
+2017-03-25 23:01:27,981 [main] INFO main.Main - Step# Wait For Object, Alias#  UserName Selector#  cssSelector:#txtUsername ObjectType#  SYNC
+2017-03-25 23:01:27,992 [main] INFO base.ObjectBuilder - Find Element By cssSelector and Find Element By Value: #txtUsername
+2017-03-25 23:01:28,062 [main] INFO base.OperationBuilder - Synchronizing...: cssSelector:#txtUsername
+2017-03-25 23:01:28,062 [main] INFO base.OperationBuilder - Synchronization Done For:cssSelector:#txtUsername
+2017-03-25 23:01:28,063 [main] INFO main.Main - Step# Enter User Name, Alias#  UserName Selector#  cssSelector:#txtUsername ObjectType#  KEYIN
+2017-03-25 23:01:28,063 [main] INFO base.ObjectBuilder - Find Element By cssSelector and Find Element By Value: #txtUsername
+2017-03-25 23:01:28,082 [main] INFO base.OperationBuilder - Clicking on Webelement cssSelector:#txtUsernameEntered Data is: Admin
+2017-03-25 23:01:28,249 [main] INFO main.Main - Step# Enter Password, Alias#  Password Selector#  cssSelector:#txtPassword ObjectType#  KEYIN
+2017-03-25 23:01:28,250 [main] INFO base.ObjectBuilder - Find Element By cssSelector and Find Element By Value: #txtPassword
+2017-03-25 23:01:28,303 [main] INFO base.OperationBuilder - Clicking on Webelement cssSelector:#txtPasswordEntered Data is: admin
+2017-03-25 23:01:28,427 [main] INFO main.Main - Step# Click On Login Button, Alias#  LoginBtn Selector#  cssSelector:#btnLogin ObjectType#  CLICK
+2017-03-25 23:01:28,427 [main] INFO base.ObjectBuilder - Find Element By cssSelector and Find Element By Value: #btnLogin
+2017-03-25 23:01:28,467 [main] INFO base.OperationBuilder - Clicking on Webelement cssSelector:#btnLogin
+2017-03-25 23:01:32,252 [main] INFO main.Main - Skip This Row. Excute: N
+2017-03-25 23:01:32,255 [main] INFO main.Main - Step# Sync, Alias#  AdminModuleTab Selector#  cssSelector:#menu_admin_viewAdminModule[href='/admin/viewAdminModule'] ObjectType#  SYNC
+2017-03-25 23:01:32,256 [main] INFO base.ObjectBuilder - Find Element By cssSelector and Find Element By Value: #menu_admin_viewAdminModule[href='/admin/viewAdminModule']
+2017-03-25 23:01:32,307 [main] INFO base.OperationBuilder - Synchronizing...: cssSelector:#menu_admin_viewAdminModule[href='/admin/viewAdminModule']
+2017-03-25 23:01:32,307 [main] INFO base.OperationBuilder - Synchronization Done For:cssSelector:#menu_admin_viewAdminModule[href='/admin/viewAdminModule']
+2017-03-25 23:01:32,308 [main] INFO main.Main - Step# Login Successful, Alias#  AdminModuleTab Selector#  cssSelector:#menu_admin_viewAdminModule[href='/admin/viewAdminModule'] ObjectType#  REPORT
+2017-03-25 23:01:32,309 [main] INFO base.ObjectBuilder - Find Element By cssSelector and Find Element By Value: #menu_admin_viewAdminModule[href='/admin/viewAdminModule']
+2017-03-25 23:01:32,328 [main] INFO base.OperationBuilder - Webelement cssSelector:#menu_admin_viewAdminModule[href='/admin/viewAdminModule']
+2017-03-25 23:01:32,949 [main] INFO main.Main - Step# Cilck On Admin Module Tab, Alias#  AdminModuleTab Selector#  cssSelector:#menu_admin_viewAdminModule[href='/admin/viewAdminModule'] ObjectType#  CLICK
+2017-03-25 23:01:32,950 [main] INFO base.ObjectBuilder - Find Element By cssSelector and Find Element By Value: #menu_admin_viewAdminModule[href='/admin/viewAdminModule']
+2017-03-25 23:01:32,962 [main] INFO base.OperationBuilder - Clicking on Webelement cssSelector:#menu_admin_viewAdminModule[href='/admin/viewAdminModule']
+2017-03-25 23:01:36,081 [main] INFO main.Main - Step# Click On User Management Menu, Alias#  UserManagement Selector#  cssSelector:#menu_admin_UserManagement ObjectType#  CLICK
+2017-03-25 23:01:36,082 [main] INFO base.ObjectBuilder - Find Element By cssSelector and Find Element By Value: #menu_admin_UserManagement
+2017-03-25 23:01:36,129 [main] INFO base.OperationBuilder - Clicking on Webelement cssSelector:#menu_admin_UserManagement
+2017-03-25 23:01:36,260 [main] INFO main.Main - Step# Click On User View, Alias#  ViewUsers Selector#  cssSelector:#menu_admin_viewSystemUsers[href='/admin/viewSystemUsers'] ObjectType#  CLICK
+2017-03-25 23:01:36,260 [main] INFO base.ObjectBuilder - Find Element By cssSelector and Find Element By Value: #menu_admin_viewSystemUsers[href='/admin/viewSystemUsers']
+2017-03-25 23:01:36,330 [main] INFO base.OperationBuilder - Clicking on Webelement cssSelector:#menu_admin_viewSystemUsers[href='/admin/viewSystemUsers']
+2017-03-25 23:01:38,119 [main] INFO main.Main - Step# Search User By Name, Alias#  SearchUserName Selector#  cssSelector:#searchSystemUser_userName ObjectType#  KEYIN
+2017-03-25 23:01:38,119 [main] INFO base.ObjectBuilder - Find Element By cssSelector and Find Element By Value: #searchSystemUser_userName
+2017-03-25 23:01:38,163 [main] INFO base.OperationBuilder - Clicking on Webelement cssSelector:#searchSystemUser_userNameEntered Data is: fiona.grace
+2017-03-25 23:01:38,375 [main] INFO main.Main - Step# Search User By Name fiona.grace, Alias#  EssRole Selector#  cssSelector:#searchSystemUser_essRole ObjectType#  REPORT
+2017-03-25 23:01:38,376 [main] INFO base.ObjectBuilder - Find Element By cssSelector and Find Element By Value: #searchSystemUser_essRole
+2017-03-25 23:01:38,419 [main] INFO base.OperationBuilder - Webelement cssSelector:#searchSystemUser_essRole
+2017-03-25 23:01:38,717 [main] INFO main.Main - Step# Select User Role, Alias#  EssRole Selector#  cssSelector:#searchSystemUser_essRole ObjectType#  LISTITEM
+2017-03-25 23:01:38,718 [main] INFO base.ObjectBuilder - Find Element By cssSelector and Find Element By Value: #searchSystemUser_essRole
+2017-03-25 23:01:38,745 [main] INFO base.OperationBuilder - Clicking on Webelement cssSelector:#searchSystemUser_essRole
+2017-03-25 23:01:38,770 [main] INFO base.OperationBuilder - Select Element: ESS
+2017-03-25 23:01:38,816 [main] ERROR base.OperationBuilder - Not Item Selected --- Cannot locate element with text: ESS
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:48:19 -0700'
+System info: host: 'Anuj-PC', ip: '192.168.0.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: unknown
+2017-03-25 23:01:38,817 [main] INFO main.Main - Step# Serach User By Emp. Name, Alias#  SearchEmpName Selector#  cssSelector:#searchSystemUser_employeeName_empName ObjectType#  KEYIN
+2017-03-25 23:01:38,817 [main] INFO base.ObjectBuilder - Find Element By cssSelector and Find Element By Value: #searchSystemUser_employeeName_empName
+2017-03-25 23:01:38,855 [main] INFO base.OperationBuilder - Clicking on Webelement cssSelector:#searchSystemUser_employeeName_empNameEntered Data is: Fiona Grace
+2017-03-25 23:01:39,101 [main] INFO main.Main - Step# Select User Status, Alias#  SelectUserStatus Selector#  cssSelector:#searchSystemUser_status ObjectType#  LISTITEM
+2017-03-25 23:01:39,102 [main] INFO base.ObjectBuilder - Find Element By cssSelector and Find Element By Value: #searchSystemUser_status
+2017-03-25 23:01:39,145 [main] INFO base.OperationBuilder - Clicking on Webelement cssSelector:#searchSystemUser_status
+2017-03-25 23:01:39,172 [main] INFO base.OperationBuilder - Select Element: Enabled
+2017-03-25 23:01:39,317 [main] INFO main.Main - Step# Search User By Name, Alias#  SearchBtn Selector#  cssSelector:#searchBtn ObjectType#  CLICK
+2017-03-25 23:01:39,318 [main] INFO base.ObjectBuilder - Find Element By cssSelector and Find Element By Value: #searchBtn
+2017-03-25 23:01:39,356 [main] INFO base.OperationBuilder - Clicking on Webelement cssSelector:#searchBtn
+2017-03-25 23:01:40,468 [main] INFO main.Main - Step# Click Logout Menu, Alias#  LogoutMenu Selector#  cssSelector:#welcome ObjectType#  CLICK
+2017-03-25 23:01:40,469 [main] INFO base.ObjectBuilder - Find Element By cssSelector and Find Element By Value: #welcome
+2017-03-25 23:01:40,519 [main] INFO base.OperationBuilder - Clicking on Webelement cssSelector:#welcome
+2017-03-25 23:01:40,614 [main] INFO main.Main - Step# Wait, Alias#  NOTHING Selector#  NOTHING ObjectType#  WAIT
+2017-03-25 23:01:40,615 [main] INFO base.OperationBuilder - Wait for 2000 seconds.
+2017-03-25 23:01:42,616 [main] INFO main.Main - Step# Click On Logout Link Button, Alias#  LogoutLinkBtn Selector#  xpath:.//*[@id='welcome-menu']/ul/li[2]/a ObjectType#  CLICK
+2017-03-25 23:01:42,616 [main] INFO base.ObjectBuilder - Find Element By xpath and Find Element By Value: .//*[@id='welcome-menu']/ul/li[2]/a
+2017-03-25 23:01:42,682 [main] INFO base.OperationBuilder - Clicking on Webelement xpath:.//*[@id='welcome-menu']/ul/li[2]/a
+2017-03-25 23:01:43,720 [main] INFO main.Main - Step# Sync, Alias#  Logo Selector#  cssSelector:#content>div>font ObjectType#  SYNC
+2017-03-25 23:01:43,721 [main] INFO base.ObjectBuilder - Find Element By cssSelector and Find Element By Value: #content>div>font
+2017-03-25 23:01:43,763 [main] INFO base.OperationBuilder - Synchronizing...: cssSelector:#content>div>font
+2017-03-25 23:01:43,764 [main] INFO base.OperationBuilder - Synchronization Done For:cssSelector:#content>div>font
+2017-03-25 23:01:43,764 [main] INFO main.Main - Step# Close App and Browser, Alias#  NOTHING Selector#  NOTHING ObjectType#  CLOSE
+2017-03-25 23:01:43,867 [main] INFO base.OperationBuilder - Browser Closed sSuccessfully .
+2017-03-25 23:01:43,869 [main] INFO main.Main - TC TCEND: Admin Module ,Alias: TCEND
+2017-03-25 23:01:44,069 [main] INFO main.Main - Skip This Row. Excute: N
+2017-03-25 23:01:44,070 [main] INFO main.Main - Skip This Row. Excute: N
+2017-03-25 23:01:44,070 [main] INFO main.Main - Skip This Row. Excute: N
+2017-03-25 23:01:44,071 [main] INFO main.Main - Skip This Row. Excute: N
+2017-03-25 23:01:44,071 [main] INFO main.Main - Skip This Row. Excute: N
+2017-03-25 23:01:44,072 [main] INFO main.Main - Skip This Row. Excute: N
+2017-03-25 23:01:44,072 [main] INFO main.Main - Skip This Row. Excute: N
+2017-03-25 23:01:44,073 [main] INFO main.Main - Skip This Row. Excute: N
+2017-03-25 23:01:44,074 [main] INFO main.Main - Skip This Row. Excute: N
+2017-03-25 23:01:44,074 [main] INFO main.Main - Skip This Row. Excute: N
+2017-03-25 23:01:44,074 [main] INFO main.Main - Skip This Row. Excute: N
+2017-03-25 23:01:44,075 [main] INFO main.Main - Skip This Row. Excute: N
+2017-03-25 23:01:44,075 [main] INFO main.Main - Skip This Row. Excute: N
+2017-03-25 23:01:44,076 [main] INFO main.Main - Skip This Row. Excute: N
+2017-03-25 23:01:44,076 [main] INFO main.Main - Skip This Row. Excute: N
+2017-03-25 23:01:44,077 [main] INFO main.Main - Skip This Row. Excute: N
+2017-03-25 23:01:44,078 [main] INFO main.Main - Skip This Row. Excute: N
+2017-03-25 23:01:44,078 [main] INFO main.Main - Skip This Row. Excute: N
+2017-03-25 23:01:44,079 [main] INFO main.Main - Skip This Row. Excute: N
+2017-03-25 23:01:44,079 [main] INFO main.Main - Skip This Row. Excute: N
+2017-03-25 23:01:44,081 [main] INFO main.Main - Skip This Row. Excute: N
+2017-03-25 23:01:44,082 [main] INFO main.Main - Skip This Row. Excute: N
+2017-03-25 23:01:44,082 [main] INFO main.Main - Skip This Row. Excute: N
+2017-03-25 23:01:44,083 [main] INFO main.Main - Skip This Row. Excute: N
+2017-03-25 23:01:44,083 [main] INFO main.Main - Skip This Row. Excute: N
+2017-03-25 23:01:44,084 [main] INFO main.Main - Skip This Row. Excute: N
+2017-03-25 23:01:44,084 [main] INFO main.Main - Skip This Row. Excute: N
+2017-03-25 23:01:44,085 [main] INFO main.Main - Skip This Row. Excute: N
+2017-03-25 23:01:44,085 [main] INFO main.Main - Skip This Row. Excute: N
+2017-03-25 23:01:44,086 [main] INFO main.Main - Skip This Row. Excute: N
+2017-03-25 23:01:44,086 [main] INFO main.Main - Skip This Row. Excute: N
+2017-03-25 23:01:44,086 [main] INFO main.Main - Skip This Row. Excute: N
+2017-03-25 23:01:44,087 [main] INFO main.Main - Skip This Row. Excute: N
+2017-03-25 23:01:44,087 [main] INFO main.Main - TC START: Kill All Process ,Alias: TCBEGIN
+2017-03-25 23:01:44,221 [main] INFO main.Main - Step# Kill All Process, Alias#  NOTHING Selector#  NOTHING ObjectType#  REPORT
+2017-03-25 23:01:44,463 [main] ERROR helper.MediaBuilder - Exception while taking screenshot no such session
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 102 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:48:19 -0700'
+System info: host: 'Anuj-PC', ip: '192.168.0.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\Anuj\AppData\Local\Temp\scoped_dir420_7954}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 46a750c36c19a496b852b11fb3fcdfd9
+2017-03-25 23:01:44,464 [main] INFO main.Main - Step# Wait, Alias#  NOTHING Selector#  NOTHING ObjectType#  WAIT
+2017-03-25 23:01:44,465 [main] INFO base.OperationBuilder - Wait for 2000 seconds.
+2017-03-25 23:01:46,465 [main] INFO main.Main - Step# Kill All Process, Alias#  NOTHING Selector#  NOTHING ObjectType#  QUIT
+2017-03-25 23:01:46,473 [main] ERROR base.OperationBuilder - The WebDriver browser instance was not initialized. You should first call the method InitBrowser.
+2017-03-25 23:01:46,474 [main] INFO main.Main - TC TCEND: Kill All Process ,Alias: TCEND

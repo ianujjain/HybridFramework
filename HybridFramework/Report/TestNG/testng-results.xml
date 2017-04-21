@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="52921" started-at="2017-03-12T10:06:59Z" finished-at="2017-03-12T10:07:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="52921" started-at="2017-03-12T10:06:59Z" finished-at="2017-03-12T10:07:52Z">
+      <class name="main.Main">
+        <test-method status="PASS" signature="initializeStaticData()[pri:0, instance:main.Main@4b952a2d]" name="initializeStaticData" is-config="true" duration-ms="1326" started-at="2017-03-12T15:36:59Z" finished-at="2017-03-12T15:37:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeStaticData -->
+        <test-method status="PASS" signature="Start()[pri:0, instance:main.Main@4b952a2d]" name="Start" duration-ms="51018" started-at="2017-03-12T15:37:00Z" finished-at="2017-03-12T15:37:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Start -->
+        <test-method status="PASS" signature="tear()[pri:0, instance:main.Main@4b952a2d]" name="tear" is-config="true" duration-ms="453" started-at="2017-03-12T15:37:51Z" finished-at="2017-03-12T15:37:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- main.Main -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,7 @@
+2017-01-31 11:15:22,220 INFO [OutLook.Outlook EnumerateFolders] - Looking for items in Microsoft Outlook: Folder Path\\ianuj.jain10@gmail.com\Inbox\Microsoft Outlook
+2017-01-31 11:15:22,400 INFO [OutLook.Outlook EnumerateFolders] - Looking for items in AutomationMail: Folder Path\\ianuj.jain10@gmail.com\Inbox\AutomationMail
+2017-01-31 11:15:22,913 INFO [OutLook.Outlook EnumerateFolders] - Looking for items in Arch: Folder Path\\ianuj.jain10@gmail.com\Inbox\Arch
+2017-01-31 11:15:23,019 INFO [OutLook.Outlook EnumerateFolders] - Looking for items in CodeProject: Folder Path\\ianuj.jain10@gmail.com\Inbox\CodeProject
+2017-01-31 11:15:23,102 INFO [OutLook.Outlook EnumerateFolders] - Looking for items in Inbox: Folder Path\\ianuj.jain10@gmail.com\Inbox
+2017-01-31 11:15:23,720 INFO [OutLook.Outlook IterateMessages] - Directory Create: D:\OutLookMail\01-31-2017\\ianuj.jain10@gmail.com\Inbox\birlasunlife@camsonline.com
+2017-01-31 11:15:28,916 INFO [OutLook.Outlook EnumerateFolders] - Looking for items in ianuj.jain10@gmail.com: Folder Path\\ianuj.jain10@gmail.com

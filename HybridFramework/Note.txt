@@ -1,0 +1,2 @@
+Must be pass in UDF Function always
+ScName,Report_Path, APPNAME
